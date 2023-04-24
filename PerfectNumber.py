@@ -4,6 +4,7 @@ st.header(":red[The Perfect Number]")
 st.subheader(":blue[Give me a number, I'll tell you  if it is a perfect number]")
 st.markdown('In number theory, a perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself.')
 
+
 # numero = 6
 
 
@@ -36,6 +37,8 @@ def main():
                 partial = partial + i
         if numero_input == partial:
             st.write(numero_input, "is a perfect number!")
+        else:
+            st.write("Ops!", numero_input, "Is not a perfect number...")
     check_input()
 
 
