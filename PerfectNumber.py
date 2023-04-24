@@ -14,14 +14,22 @@ def main():
     st.markdown("As perfect numbers aren't common, you can also typer here instead:")
     numero_input = st.number_input(label="Please enter an integer below:", step=1)
     
-    def perfect():
+    def check_slider():
         partial = 0 
         for i in range(1, numero-1):
             if numero%i == 0:
                 partial = partial + i
         if numero == partial:
             st.write(numero,"Is a perfect number!")
-    perfect()
+    check_slider()
+
+    def check_input():
+        partial = 0
+        for i in range(1, numero_input-1):
+            if numero_input%i == 0:
+                partial = partial + i
+        if numero == partial:
+            st.write(numero_input, "is a perfect number!")
 
 
 
