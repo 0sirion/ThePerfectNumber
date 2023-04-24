@@ -21,7 +21,7 @@ def main():
         for i in range(1, numero-1):
             if numero%i == 0:
                 partial = partial + i
-        if numero == partial:
+        if numero == partial and numero != 0:
             st.write(numero,"Is a perfect number!")
         else:
             st.write("Ops!", numero, "Is not a perfect number...")
