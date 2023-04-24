@@ -11,7 +11,7 @@ st.markdown('In number theory, a perfect number is a positive integer that is eq
 
 def main():
     numero = st.slider (label="slide to choose a number: ", min_value=0, max_value= 100) #on_change=check())
-    st.markdown("As perfect numbers aren't common, you can also typer here instead:")
+    st.markdown("As perfect numbers aren't common, you can also type here instead:")
     numero_input = st.number_input(label="Please enter an integer below:", step=1)
     
     
@@ -25,7 +25,7 @@ def main():
             st.write(numero,"Is a perfect number!")
         else:
             if numero !=partial and numero !=0:
-                st.write("Ops!", numero, "Is not a perfect number...")
+                st.write("Ops!", numero, "is not a perfect number...")
 
 
 
@@ -40,7 +40,7 @@ def main():
             st.write(numero_input, "is a perfect number!")
         else:
             if numero_input !=partial and numero_input !=0:
-                st.write("Ops!", numero_input, "Is not a perfect number...")
+                st.write("Ops!", numero_input, "is not a perfect number...")
     check_input()
 
 
