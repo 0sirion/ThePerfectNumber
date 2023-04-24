@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.header(":red[The Perfect Number]")
+st.subheader(":blue[Give me a number, I'll tell if it is perfect]")
 # numero = st.slider(label="scorri per scegliere un numero",min_value=0, max_value=100)
 numero = 6
 partial = 0
