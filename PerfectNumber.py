@@ -36,10 +36,11 @@ def main():
         for i in range(1, numero_input-1):
             if numero_input%i == 0:
                 partial = partial + i
-        if numero_input == partial:
+        if numero_input == partial and numero_input != 0:
             st.write(numero_input, "is a perfect number!")
         else:
-            st.write("Ops!", numero_input, "Is not a perfect number...")
+            if numero !=partial and numero_input !=0:
+                st.write("Ops!", numero_input, "Is not a perfect number...")
     check_input()
 
 
