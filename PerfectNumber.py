@@ -12,10 +12,14 @@ partial = 0
 def main():
     numero = st.slider (label="slide to choose a number: ", min_value=0, max_value= 100) #on_change=check())
 
-    def check():
-        st.write(numero)
     
-    check()
+    def perfect(): 
+        for i in range(1, numero-1):
+            if numero%i == 0:
+                partial = partial + i
+                if numero == partial:
+                    st.write(numero,"Is a perfect number")
+    perfect()
 
 
 
