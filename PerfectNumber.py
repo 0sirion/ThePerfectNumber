@@ -30,6 +30,7 @@ def main():
                 partial = partial + i
         if numero == partial:
             st.write(numero_input, "is a perfect number!")
+    check_input()
 
 
 
