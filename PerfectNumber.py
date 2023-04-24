@@ -39,7 +39,7 @@ def main():
         if numero_input == partial and numero_input != 0:
             st.write(numero_input, "is a perfect number!")
         else:
-            if numero !=partial and numero_input !=0:
+            if numero_input !=partial and numero_input !=0:
                 st.write("Ops!", numero_input, "Is not a perfect number...")
     check_input()
 
