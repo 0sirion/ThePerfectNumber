@@ -23,7 +23,7 @@ def main():
                 partial = partial + i
         if numero == partial and numero != 0:
             st.write(numero,"Is a perfect number!")
-            st.balloons()
+            # st.balloons()
             
         else:
             if numero !=partial and numero !=0:
@@ -40,7 +40,7 @@ def main():
                 partial = partial + i
         if numero_input == partial and numero_input != 0:
             st.write(numero_input, "is a perfect number!")
-            st.balloons()
+            # st.balloons()
         else:
             if numero_input !=partial and numero_input !=0:
                 st.write("Ops!", numero_input, "is not a perfect number...")
