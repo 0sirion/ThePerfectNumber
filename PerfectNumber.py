@@ -6,7 +6,6 @@ st.markdown('In number theory, a perfect number is a positive integer that is eq
 
 # numero = 6
 
-partial = 0
 
 
 def main():
