@@ -10,10 +10,12 @@ partial = 0
 
 
 def main():
-    numero = st.slider (label="slide to choose a number: ", min_value=0, max_value= 100, on_change=check())
+    numero = st.slider (label="slide to choose a number: ", min_value=0, max_value= 100) #on_change=check())
 
     def check():
         st.write(numero)
+    
+    check()
 
 
 
