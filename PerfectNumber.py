@@ -7,10 +7,17 @@ numero = st.slider(label="scorri per scegliere un numero",min_value=0, max_value
 # numero = 6
 partial = 0
 
+
+def main():
+    def perfect_check(num)
 for i in range(1, numero-1):
     if numero%i == 0:
         partial = partial + i
 
 if numero == partial:
     st.write(numero,"Is a perfect number")
-    
+
+
+
+if __name__ == '__main__':
+    main()
