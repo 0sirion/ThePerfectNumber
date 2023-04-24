@@ -11,8 +11,8 @@ partial = 0
 
 def main():
     numero = st.slider (label="slide to choose a number: ", min_value=0, max_value= 100) #on_change=check())
-    st.markdown("")
-    numero_input = st.number_input(label="Please enter here an integer")
+    st.markdown("As perfect numbers aren't common, you can also typer here instead:")
+    numero_input = st.number_input(label="Please enter an integer below:")
     
     def perfect():
         partial = 0 
