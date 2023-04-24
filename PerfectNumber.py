@@ -24,7 +24,8 @@ def main():
         if numero == partial and numero != 0:
             st.write(numero,"Is a perfect number!")
         else:
-            st.write("Ops!", numero, "Is not a perfect number...")
+            if numero !=partial and numero !=0:
+                st.write("Ops!", numero, "Is not a perfect number...")
 
 
 
